@@ -402,20 +402,18 @@
     if (e.target.classList.contains("btn100")) {
       e.target.classList.add("clicked");
 
-      // agar 2 soniyadan keyin holatni tiklamoqchi bo'lsang:
       setTimeout(() => {
         e.target.classList.remove("clicked");
-      }, 2000);
+      }, 1000);
     }
   });
   document.addEventListener("click", function (e) {
     if (e.target.classList.contains("home-cards-btn")) {
       e.target.classList.add("clicked");
 
-      // agar 2 soniyadan keyin holatni tiklamoqchi bo'lsang:
       setTimeout(() => {
         e.target.classList.remove("clicked");
-      }, 2000);
+      }, 1000);
     }
   });
 </script>
